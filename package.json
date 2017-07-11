@@ -1,0 +1,38 @@
+{
+  "name": "neocotic-branding",
+  "version": "0.1.0",
+  "description": "Branding assets and guidelines for neocotic",
+  "homepage": "https://github.com/neocotic/branding",
+  "bugs": {
+    "url": "https://github.com/neocotic/branding/issues"
+  },
+  "author": {
+    "name": "Alasdair Mercer",
+    "email": "mercer.alasdair@gmail.com",
+    "url": "https://neocotic.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "neocotic",
+    "branding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neocotic/branding.git"
+  },
+  "devDependencies": {
+    "async": "^2.5.0",
+    "del": "^3.0.0",
+    "glob": "^7.1.2",
+    "png-to-ico": "^1.0.2",
+    "svg2png": "^4.1.1",
+    "svgo": "^0.7.2"
+  },
+  "scripts": {
+    "start": "node scripts/build"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "private": true
+}
