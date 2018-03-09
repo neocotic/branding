@@ -1,0 +1,255 @@
+{
+  "name": "neocotic",
+  "email": "mercer.alasdair@gmail.com",
+  "homepage": "https://neocotic.com",
+  "tasks": [
+    {
+      "task": "clean",
+      "input": {
+        "files": [
+          "logo/**/*.ico",
+          "logo/**/*.min.svg",
+          "logo/**/*.png"
+        ]
+      }
+    },
+    {
+      "task": "convert",
+      "input": {
+        "files": "logo/**/*.svg"
+      },
+      "output": {
+        "format": "png"
+      },
+      "options": {
+        "sizes": [
+          16,
+          32,
+          36,
+          48,
+          64,
+          70,
+          72,
+          76,
+          96,
+          120,
+          144,
+          150,
+          152,
+          167,
+          168,
+          180,
+          192,
+          250,
+          256,
+          300,
+          310,
+          512,
+          2800
+        ]
+      }
+    },
+    {
+      "task": "package",
+      "input": {
+        "files": "logo/**/*-256x256.png"
+      },
+      "output": {
+        "files": "<%= file.base(true).replace('-256x256', '') %>.ico"
+      },
+      "options": {
+        "groupBy": "<%= file.dir %>",
+        "sizes": [
+          16,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "task": "optimize",
+      "input": {
+        "files": "logo/**/*.svg"
+      }
+    }
+  ],
+  "docs": [
+    {
+      "doc": "README.md",
+      "dir": ".",
+      "title": "neocotic branding",
+      "sections": [
+        {
+          "type": "template",
+          "content": "This repository contains branding assets and guidelines for me, [<%= config.title %>](<%= config.homepage %>)."
+        },
+        {
+          "type": "toc",
+          "docs": [
+            "guidelines.md",
+            "colors.md",
+            "assets.md"
+          ],
+          "minDepth": 0,
+          "maxDepth": 1
+        },
+        {
+          "title": "Using Assets",
+          "type": "template",
+          "content": "All assets are owned by me, Alasdair Mercer (<%= config.title %>), and intended for use by <%= config.title %>, however, we are an open organization so if you wish to use our assets, simply ask us for permission to do so, detailing who/what/when/where/why you intend to use them.\n\nThe best way to get in touch with me is via [email](mailto:<%= config.email %>) or on [Twitter](https://twitter.com/neocotic)."
+        },
+        {
+          "title": "Generating Assets",
+          "type": "template",
+          "content": "The assets and documentation within this repository are generated using [Brander](https://github.com/NotNinja/brander) based on our `.branderrc.json` configuration file.\n\nTo get started, first clone the repository:\n\n``` bash\n$ git clone <%= config.repository.url %>\n$ cd <%= config.repository.name %>\n```\n\nThen install all of the necessary dependencies:\n\n``` bash\n<%= config.repository.name %>$ npm install\n```\n\nNow you can easily generate all assets and documentation after making whatever changes you want to the configuration file or asset sources:\n\n``` bash\n<%= config.repository.name %>$ npm start\n```\n\nIf successful, it should end with \"Done!\"."
+        }
+      ]
+    },
+    {
+      "doc": "assets.md",
+      "title": "Assets",
+      "sections": [
+        {
+          "type": "template",
+          "content": "This document contains references to all assets that are available to be used to represent the <%= config.title %> brand across all spaces."
+        },
+        {
+          "type": "toc",
+          "maxDepth": 1
+        },
+        {
+          "title": "Logos",
+          "type": "asset-feature",
+          "dir": "logo/**/*/",
+          "preview": "!(*.min).svg",
+          "files": [
+            "*.ico",
+            "*.png",
+            [ "!(*.min).svg", "*.min.svg" ]
+          ],
+          "sortBy": [ "<%= files[0].file.type %>", "asc" ],
+          "titles": {
+            "neocotic-logo.svg": "Base",
+            "neocotic-logo-fill.svg": "Base, Fill",
+            "neocotic-logo-invert.svg": "Base, Invert",
+            "neocotic-logo-invert-fill.svg": "Base, Invert, Fill"
+          }
+        }
+      ]
+    },
+    {
+      "doc": "colors.md",
+      "title": "Colors",
+      "sections": [
+        {
+          "type": "template",
+          "content": "This document contains the colors that are to be used when representing the <%= config.title %> brand."
+        },
+        { "type": "toc" },
+        {
+          "title": "Palette",
+          "type": "template",
+          "content": "The following colors are recommended to be used:"
+        },
+        {
+          "type": "color-table",
+          "colors": [
+            {
+              "name": "Black",
+              "format": "hex",
+              "value": "#000000"
+            },
+            {
+              "name": "White",
+              "format": "hex",
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "Primary",
+              "format": "hex",
+              "value": "#FF3338"
+            },
+            {
+              "name": "Secondary",
+              "format": "hex",
+              "value": "#B8FFFD"
+            }
+          ],
+          "columns": [
+            {
+              "header": "Color",
+              "content": "<%= color.name %>"
+            },
+            {
+              "header": "Hex",
+              "content": "`<%= color.hex %>`"
+            },
+            {
+              "header": "RGB",
+              "content": "<%= color.rgb.join(', ') %>"
+            },
+            {
+              "header": "CMYK",
+              "content": "<%= color.cmyk.join(', ') %>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doc": "guidelines.md",
+      "title": "Guidelines",
+      "sections": [
+        {
+          "type": "template",
+          "content": "This document contains guidelines to be followed when representing the <%= config.title %> brand."
+        },
+        { "type": "toc" },
+        {
+          "type": "template",
+          "title": "Fonts",
+          "content": "The following fonts are recommended to be used when presenting text-based information, anywhere from websites to written letters:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Type",
+            "Primary Font",
+            "Fallback Fonts"
+          ],
+          "rows": [
+            [
+              "Heading",
+              "[Damion](https://fonts.google.com/specimen/Damion)",
+              "cursive"
+            ],
+            [
+              "Body",
+              "[Open Sans](https://fonts.google.com/specimen/Open+Sans)",
+              "sans-serif"
+            ],
+            [
+              "Monospace",
+              "TODO",
+              "monospace"
+            ]
+          ]
+        },
+        {
+          "type": "template",
+          "content": "For all assets, the Damion font should always be used."
+        }
+      ]
+    }
+  ],
+  "options": {
+    "lineSeparator": "lf",
+    "docs": {
+      "footer": {
+        "type": "template",
+        "content": "---\n\nCopyright © Alasdair Mercer"
+      }
+    }
+  }
+}

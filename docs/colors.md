@@ -2,7 +2,7 @@
 
 This document contains the colors that are to be used when representing the neocotic brand.
 
-1. [Palette](#palette)
+1. [Palette](https://github.com/neocotic/branding/tree/master/docs%2Fcolors.md#palette)
 
 ## Palette
 
