@@ -97,12 +97,39 @@
         {
           "title": "Using Assets",
           "type": "template",
-          "content": "All assets are owned by me, Alasdair Mercer (<%= config.title %>), and intended for use by <%= config.title %>, however, we are an open organization so if you wish to use our assets, simply ask us for permission to do so, detailing who/what/when/where/why you intend to use them.\n\nThe best way to get in touch with me is via [email](mailto:<%= config.email %>) or on [Twitter](https://twitter.com/neocotic)."
+          "content": [
+            "All assets are owned by me, Alasdair Mercer (<%= config.title %>), and intended for use by <%= config.title %>, however, we are an open organization so if you wish to use our assets, simply ask us for permission to do so, detailing who/what/when/where/why you intend to use them.",
+            "",
+            "The best way to get in touch with me is via [email](mailto:<%= config.email %>) or on [Twitter](https://twitter.com/neocotic)."
+          ]
         },
         {
           "title": "Generating Assets",
           "type": "template",
-          "content": "The assets and documentation within this repository are generated using [Brander](https://github.com/NotNinja/brander) based on our `.branderrc.json` configuration file.\n\nTo get started, first clone the repository:\n\n``` bash\n$ git clone <%= config.repository.url %>\n$ cd <%= config.repository.name %>\n```\n\nThen install all of the necessary dependencies:\n\n``` bash\n<%= config.repository.name %>$ npm install\n```\n\nNow you can easily generate all assets and documentation after making whatever changes you want to the configuration file or asset sources:\n\n``` bash\n<%= config.repository.name %>$ npm start\n```\n\nIf successful, it should end with \"Done!\"."
+          "content": [
+            "The assets and documentation within this repository are generated using [Brander](https://github.com/NotNinja/brander) based on our `.branderrc.json` configuration file.",
+            "",
+            "To get started, first clone the repository:",
+            "",
+            "``` bash",
+            "$ git clone <%= config.repository.url %>",
+            "$ cd <%= config.repository.name %>",
+            "```",
+            "",
+            "Then install all of the necessary dependencies:",
+            "",
+            "``` bash",
+            "<%= config.repository.name %>$ npm install",
+            "```",
+            "",
+            "Now you can easily generate all assets and documentation after making whatever changes you want to the configuration file or asset sources:",
+            "",
+            "``` bash",
+            "<%= config.repository.name %>$ npm start",
+            "```",
+            "",
+            "If successful, it should end with \"Done!\"."
+          ]
         }
       ]
     },
@@ -248,7 +275,11 @@
     "docs": {
       "footer": {
         "type": "template",
-        "content": "---\n\nCopyright © Alasdair Mercer"
+        "content": [
+          "---",
+          "",
+          "Copyright © Alasdair Mercer"
+        ]
       }
     }
   }
