@@ -303,6 +303,9 @@
   ],
   "options": {
     "lineSeparator": "lf",
+    "assets": {
+      "url": "https://rawcdn.githack.com/<%= config.repository.user %>/<%= config.repository.name %>/<%= config.repository.branch %>/<%= file %>"
+    },
     "docs": {
       "footer": {
         "type": "template",
