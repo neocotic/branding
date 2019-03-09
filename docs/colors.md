@@ -12,8 +12,11 @@ The following colors are recommended to be used:
 | ----- | --- | --- | ---- |
 | Black | `#000000` | 0, 0, 0 | 0, 0, 0, 100 |
 | White | `#FFFFFF` | 255, 255, 255 | 0, 0, 0, 0 |
-| Primary | `#FF3338` | 255, 51, 56 | 0, 80, 78, 0 |
-| Secondary | `#B8FFFD` | 184, 255, 253 | 28, 0, 1, 0 |
+| Primary (Lightest) | `#EDF5E1` | 237, 245, 225 | 3, 0, 8, 4 |
+| Primary (Light) | `#8EE4AF` | 142, 228, 175 | 38, 0, 23, 11 |
+| Primary (Normal) | `#5CDB95` | 92, 219, 149 | 58, 0, 32, 14 |
+| Primary (Dark) | `#379683` | 55, 150, 131 | 63, 0, 13, 41 |
+| Secondary | `#05386B` | 5, 56, 107 | 95, 48, 0, 58 |
 
 ---
 

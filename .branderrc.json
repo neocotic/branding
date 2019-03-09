@@ -1,22 +1,22 @@
 {
   "name": "neocotic",
-  "email": "mercer.alasdair@gmail.com",
-  "homepage": "https://neocotic.com",
+  "email": "alasdair@mercer.scot",
+  "homepage": "https://neocotic.dev",
   "tasks": [
     {
       "task": "clean",
       "input": {
         "files": [
-          "logo/**/*.ico",
-          "logo/**/*.min.svg",
-          "logo/**/*.png"
+          "@(logo|tile)/**/*.ico",
+          "@(logo|tile)/**/*.min.svg",
+          "@(logo|tile)/**/*.png"
         ]
       }
     },
     {
       "task": "convert",
       "input": {
-        "files": "logo/**/*.svg"
+        "files": "@(logo|tile)/**/*.svg"
       },
       "output": {
         "format": "png"
@@ -52,7 +52,7 @@
     {
       "task": "package",
       "input": {
-        "files": "logo/**/*-256x256.png"
+        "files": "@(logo|tile)/**/*-256x256.png"
       },
       "output": {
         "files": "<%= file.base(true).replace('-256x256', '') %>.ico"
@@ -70,7 +70,7 @@
     {
       "task": "optimize",
       "input": {
-        "files": "logo/**/*.svg"
+        "files": "@(logo|tile)/**/*.svg"
       }
     }
   ],
@@ -162,6 +162,22 @@
             "neocotic-logo-invert.svg": "Base, Invert",
             "neocotic-logo-invert-fill.svg": "Base, Invert, Fill"
           }
+        },
+        {
+          "title": "Tiles",
+          "type": "asset-feature",
+          "dir": "tile/**/*/",
+          "preview": "!(*.min).svg",
+          "files": [
+            "*.ico",
+            "*.png",
+            [ "!(*.min).svg", "*.min.svg" ]
+          ],
+          "sortBy": [ "<%= files[0].file.type %>", "asc" ],
+          "titles": {
+            "neocotic-tile.svg": "Base",
+            "neocotic-tile-invert.svg": "Base, Invert"
+          }
         }
       ]
     },
@@ -193,14 +209,29 @@
               "value": "#FFFFFF"
             },
             {
-              "name": "Primary",
+              "name": "Primary (Lightest)",
               "format": "hex",
-              "value": "#FF3338"
+              "value": "#EDF5E1"
+            },
+            {
+              "name": "Primary (Light)",
+              "format": "hex",
+              "value": "#8EE4AF"
+            },
+            {
+              "name": "Primary (Normal)",
+              "format": "hex",
+              "value": "#5CDB95"
+            },
+            {
+              "name": "Primary (Dark)",
+              "format": "hex",
+              "value": "#379683"
             },
             {
               "name": "Secondary",
               "format": "hex",
-              "value": "#B8FFFD"
+              "value": "#05386B"
             }
           ],
           "columns": [
@@ -248,17 +279,17 @@
           "rows": [
             [
               "Heading",
-              "[Damion](https://fonts.google.com/specimen/Damion)",
-              "cursive"
+              "[Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)",
+              "sans-serif"
             ],
             [
               "Body",
-              "[Open Sans](https://fonts.google.com/specimen/Open+Sans)",
+              "[Raleway](https://fonts.google.com/specimen/Raleway)",
               "sans-serif"
             ],
             [
               "Monospace",
-              "TODO",
+              "[Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)",
               "monospace"
             ]
           ]

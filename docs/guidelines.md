@@ -10,9 +10,9 @@ The following fonts are recommended to be used when presenting text-based inform
 
 | Type | Primary Font | Fallback Fonts |
 | ---- | ------------ | -------------- |
-| Heading | [Damion](https://fonts.google.com/specimen/Damion) | cursive |
-| Body | [Open Sans](https://fonts.google.com/specimen/Open+Sans) | sans-serif |
-| Monospace | TODO | monospace |
+| Heading | [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) | sans-serif |
+| Body | [Raleway](https://fonts.google.com/specimen/Raleway) | sans-serif |
+| Monospace | [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) | monospace |
 
 For all assets, the Damion font should always be used.
 
