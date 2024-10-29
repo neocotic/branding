@@ -2,14 +2,14 @@
 
 This document contains references to all assets that are available to be used to represent the neocotic brand across all spaces.
 
-1. [Logos](https://github.com/neocotic/branding/tree/master/docs%2Fassets.md#logos)
-2. [Tiles](https://github.com/neocotic/branding/tree/master/docs%2Fassets.md#tiles)
+1. [Logos](https://github.com/neocotic/branding/tree/master/docs/assets.md#logos)
+2. [Tiles](https://github.com/neocotic/branding/tree/master/docs/assets.md#tiles)
 
 ## Logos
 
 ### Base
 
-[![neocotic-logo.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base/neocotic-logo.svg)](https://github.com/neocotic/branding/tree/master/assets%2Flogo%2Fbase)
+[![neocotic-logo.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base/neocotic-logo.svg)](https://github.com/neocotic/branding/tree/master/assets/logo/base)
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
@@ -17,19 +17,9 @@ This document contains references to all assets that are available to be used to
 | image/svg+xml | [100x100](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base/neocotic-logo.svg) | [neocotic-logo.min.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base/neocotic-logo.min.svg) |
 | image/vnd.microsoft.icon | [16x16+32x32+48x48+256x256](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base/neocotic-logo.ico) |  |
 
-### Base, Fill
-
-[![neocotic-logo-fill.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill.svg)](https://github.com/neocotic/branding/tree/master/assets%2Flogo%2Fbase-fill)
-
-| Type | Sizes | Optimized |
-| ---- | ----- | --------- |
-| image/png | [16x16](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-16x16.png) [32x32](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-32x32.png) [36x36](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-36x36.png) [48x48](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-48x48.png) [64x64](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-64x64.png) [70x70](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-70x70.png) [72x72](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-72x72.png) [76x76](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-76x76.png) [96x96](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-96x96.png) [120x120](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-120x120.png) [144x144](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-144x144.png) [150x150](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-150x150.png) [152x152](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-152x152.png) [167x167](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-167x167.png) [168x168](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-168x168.png) [180x180](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-180x180.png) [192x192](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-192x192.png) [250x250](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-250x250.png) [256x256](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-256x256.png) [300x300](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-300x300.png) [310x310](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-310x310.png) [512x512](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-512x512.png) [2800x2800](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill-2800x2800.png) |  |
-| image/svg+xml | [100x100](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill.svg) | [neocotic-logo-fill.min.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill.min.svg) |
-| image/vnd.microsoft.icon | [16x16+32x32+48x48+256x256](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-fill/neocotic-logo-fill.ico) |  |
-
 ### Base, Invert
 
-[![neocotic-logo-invert.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert/neocotic-logo-invert.svg)](https://github.com/neocotic/branding/tree/master/assets%2Flogo%2Fbase-invert)
+[![neocotic-logo-invert.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert/neocotic-logo-invert.svg)](https://github.com/neocotic/branding/tree/master/assets/logo/base-invert)
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
@@ -37,21 +27,19 @@ This document contains references to all assets that are available to be used to
 | image/svg+xml | [100x100](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert/neocotic-logo-invert.svg) | [neocotic-logo-invert.min.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert/neocotic-logo-invert.min.svg) |
 | image/vnd.microsoft.icon | [16x16+32x32+48x48+256x256](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert/neocotic-logo-invert.ico) |  |
 
-### Base, Invert, Fill
+### Base, Mask
 
-[![neocotic-logo-invert-fill.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill.svg)](https://github.com/neocotic/branding/tree/master/assets%2Flogo%2Fbase-invert-fill)
+[![neocotic-logo-mask.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-mask/neocotic-logo-mask.svg)](https://github.com/neocotic/branding/tree/master/assets/logo/base-mask)
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
-| image/png | [16x16](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-16x16.png) [32x32](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-32x32.png) [36x36](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-36x36.png) [48x48](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-48x48.png) [64x64](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-64x64.png) [70x70](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-70x70.png) [72x72](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-72x72.png) [76x76](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-76x76.png) [96x96](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-96x96.png) [120x120](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-120x120.png) [144x144](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-144x144.png) [150x150](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-150x150.png) [152x152](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-152x152.png) [167x167](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-167x167.png) [168x168](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-168x168.png) [180x180](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-180x180.png) [192x192](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-192x192.png) [250x250](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-250x250.png) [256x256](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-256x256.png) [300x300](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-300x300.png) [310x310](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-310x310.png) [512x512](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-512x512.png) [2800x2800](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill-2800x2800.png) |  |
-| image/svg+xml | [100x100](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill.svg) | [neocotic-logo-invert-fill.min.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill.min.svg) |
-| image/vnd.microsoft.icon | [16x16+32x32+48x48+256x256](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-invert-fill/neocotic-logo-invert-fill.ico) |  |
+| image/svg+xml | [16x16](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-mask/neocotic-logo-mask.svg) | [neocotic-logo-mask.min.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/logo/base-mask/neocotic-logo-mask.min.svg) |
 
 ## Tiles
 
 ### Base
 
-[![neocotic-tile.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/tile/base/neocotic-tile.svg)](https://github.com/neocotic/branding/tree/master/assets%2Ftile%2Fbase)
+[![neocotic-tile.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/tile/base/neocotic-tile.svg)](https://github.com/neocotic/branding/tree/master/assets/tile/base)
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
@@ -61,7 +49,7 @@ This document contains references to all assets that are available to be used to
 
 ### Base, Invert
 
-[![neocotic-tile-invert.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/tile/base-invert/neocotic-tile-invert.svg)](https://github.com/neocotic/branding/tree/master/assets%2Ftile%2Fbase-invert)
+[![neocotic-tile-invert.svg](https://rawcdn.githack.com/neocotic/branding/master/assets/tile/base-invert/neocotic-tile-invert.svg)](https://github.com/neocotic/branding/tree/master/assets/tile/base-invert)
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
@@ -71,4 +59,4 @@ This document contains references to all assets that are available to be used to
 
 ---
 
-Copyright © Alasdair Mercer
+Copyright © neocotic

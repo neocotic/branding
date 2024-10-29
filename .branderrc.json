@@ -1,6 +1,5 @@
 {
   "name": "neocotic",
-  "email": "alasdair@mercer.scot",
   "homepage": "https://neocotic.dev",
   "tasks": [
     {
@@ -16,7 +15,7 @@
     {
       "task": "convert",
       "input": {
-        "files": "@(logo|tile)/**/*.svg"
+        "files": "@(logo|tile)/**/!(*-mask).svg"
       },
       "output": {
         "format": "png"
@@ -98,16 +97,16 @@
           "title": "Using Assets",
           "type": "template",
           "content": [
-            "All assets are owned by me, Alasdair Mercer (<%= config.title %>), and intended for use by <%= config.title %>, however, we are an open organization so if you wish to use our assets, simply ask us for permission to do so, detailing who/what/when/where/why you intend to use them.",
+            "All assets are owned by me, neocotic, and intended for use by me, however, I am pretty open so if you wish to use my assets, simply ask me for permission to do so, detailing who/what/when/where/why you intend to use them.",
             "",
-            "The best way to get in touch with me is via [email](mailto:<%= config.email %>) or on [Twitter](https://twitter.com/neocotic)."
+            "The best way to get in touch with me is by [raising an issue](https://github.com/neocotic/branding/issues/new)."
           ]
         },
         {
           "title": "Generating Assets",
           "type": "template",
           "content": [
-            "The assets and documentation within this repository are generated using [Brander](https://github.com/NotNinja/brander) based on our `.branderrc.json` configuration file.",
+            "The assets and documentation within this repository are generated using [Brander](https://github.com/neocotic/brander) based on our `.branderrc.json` configuration file.",
             "",
             "To get started, first clone the repository:",
             "",
@@ -158,9 +157,8 @@
           "sortBy": [ "<%= files[0].file.type %>", "asc" ],
           "titles": {
             "neocotic-logo.svg": "Base",
-            "neocotic-logo-fill.svg": "Base, Fill",
             "neocotic-logo-invert.svg": "Base, Invert",
-            "neocotic-logo-invert-fill.svg": "Base, Invert, Fill"
+            "neocotic-logo-mask.svg": "Base, Mask"
           }
         },
         {
@@ -209,29 +207,14 @@
               "value": "#FFFFFF"
             },
             {
-              "name": "Primary (Lightest)",
+              "name": "Primary",
               "format": "hex",
-              "value": "#EDF5E1"
-            },
-            {
-              "name": "Primary (Light)",
-              "format": "hex",
-              "value": "#8EE4AF"
-            },
-            {
-              "name": "Primary (Normal)",
-              "format": "hex",
-              "value": "#5CDB95"
-            },
-            {
-              "name": "Primary (Dark)",
-              "format": "hex",
-              "value": "#379683"
+              "value": "#eebf10"
             },
             {
               "name": "Secondary",
               "format": "hex",
-              "value": "#05386B"
+              "value": "#29141e"
             }
           ],
           "columns": [
@@ -312,7 +295,7 @@
         "content": [
           "---",
           "",
-          "Copyright © Alasdair Mercer"
+          "Copyright © neocotic"
         ]
       }
     }

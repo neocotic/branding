@@ -1,3 +1,3 @@
 # Authors ordered by first contribution
 
-* Alasdair Mercer <alasdair@mercer.scot>
+* neocotic <https://github.com/neocotic>

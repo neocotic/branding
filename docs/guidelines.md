@@ -2,7 +2,7 @@
 
 This document contains guidelines to be followed when representing the neocotic brand.
 
-1. [Fonts](https://github.com/neocotic/branding/tree/master/docs%2Fguidelines.md#fonts)
+1. [Fonts](https://github.com/neocotic/branding/tree/master/docs/guidelines.md#fonts)
 
 ## Fonts
 
@@ -18,4 +18,4 @@ For all assets, the Damion font should always be used.
 
 ---
 
-Copyright © Alasdair Mercer
+Copyright © neocotic

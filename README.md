@@ -2,23 +2,23 @@
 
 This repository contains branding assets and guidelines for me, [neocotic](https://neocotic.dev).
 
-1. [Guidelines](https://github.com/neocotic/branding/tree/master/docs%2Fguidelines.md)
-    1. [Fonts](https://github.com/neocotic/branding/tree/master/docs%2Fguidelines.md#fonts)
-2. [Colors](https://github.com/neocotic/branding/tree/master/docs%2Fcolors.md)
-    1. [Palette](https://github.com/neocotic/branding/tree/master/docs%2Fcolors.md#palette)
-3. [Assets](https://github.com/neocotic/branding/tree/master/docs%2Fassets.md)
-    1. [Logos](https://github.com/neocotic/branding/tree/master/docs%2Fassets.md#logos)
-    2. [Tiles](https://github.com/neocotic/branding/tree/master/docs%2Fassets.md#tiles)
+1. [Guidelines](https://github.com/neocotic/branding/tree/master/docs/guidelines.md)
+    1. [Fonts](https://github.com/neocotic/branding/tree/master/docs/guidelines.md#fonts)
+2. [Colors](https://github.com/neocotic/branding/tree/master/docs/colors.md)
+    1. [Palette](https://github.com/neocotic/branding/tree/master/docs/colors.md#palette)
+3. [Assets](https://github.com/neocotic/branding/tree/master/docs/assets.md)
+    1. [Logos](https://github.com/neocotic/branding/tree/master/docs/assets.md#logos)
+    2. [Tiles](https://github.com/neocotic/branding/tree/master/docs/assets.md#tiles)
 
 ## Using Assets
 
-All assets are owned by me, Alasdair Mercer (neocotic), and intended for use by neocotic, however, we are an open organization so if you wish to use our assets, simply ask us for permission to do so, detailing who/what/when/where/why you intend to use them.
+All assets are owned by me, neocotic, and intended for use by me, however, I am pretty open so if you wish to use my assets, simply ask me for permission to do so, detailing who/what/when/where/why you intend to use them.
 
-The best way to get in touch with me is via [email](mailto:alasdair@mercer.scot) or on [Twitter](https://twitter.com/neocotic).
+The best way to get in touch with me is by [raising an issue](https://github.com/neocotic/branding/issues/new).
 
 ## Generating Assets
 
-The assets and documentation within this repository are generated using [Brander](https://github.com/NotNinja/brander) based on our `.branderrc.json` configuration file.
+The assets and documentation within this repository are generated using [Brander](https://github.com/neocotic/brander) based on our `.branderrc.json` configuration file.
 
 To get started, first clone the repository:
 
@@ -43,4 +43,4 @@ If successful, it should end with "Done!".
 
 ---
 
-Copyright © Alasdair Mercer
+Copyright © neocotic
