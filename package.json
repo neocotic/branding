@@ -19,7 +19,7 @@
     "url": "https://github.com/neocotic/branding.git"
   },
   "dependencies": {
-    "brander": "^0.1.9"
+    "brander": "^0.4.1"
   },
   "scripts": {
     "start": "brander"
